@@ -47,4 +47,4 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-Contact YOUR NAME HERE at your.name@email.com.
+Contact Irene Adeline Milanez at i.milanez16@journalism.cuny.edu
