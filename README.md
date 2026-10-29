@@ -1,38 +1,41 @@
-# Analysis of TK data set — MM/YYYY to MM/YYYY
+# Analysis of KFC Same-Store Sales Growth Over Time — 01/2022 to 07/2026
 
-This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+This analysis was conducted as an assignment for CUNY Newmark Journalism School's Data Journalism class.
 
 ## Data
 
-This analysis uses TKTKTK spreadsheets.
+This repository contains data, analytic code, and findings from an analysis of KFC same-store sales growth sourced from the Bloomberg Terminal L.P.:
 
-The spreadsheets come from the following sources:
+
+The spreadsheet come from the following:
 
 - Name of source:
-  - `name_of_spreadsheet.xlsx`: Raw data of TKTKTK
+  - `KFC_SameStoreSales_Growth.csv`: Raw data of KFC Same-Store Sales Growth (%) Year-over-year
 
-Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
+Each of the spreadsheets contain the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+- `Date` — Date quarterly same-store sales growth filed
+- `% Change` — % Change in same-store sales growth year-over-year
 
 ## Methodology
 
-The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following analyses:
+The notebook [`yum-time-series-analysis.ipynb`](notebooks/yum-time-series-analysis.ipynb) performs the following analyses:
 
-##### Part 1: TKTK
-
-- Description of what you did with the data
-
-
-##### Part 2: TKTK
+##### Part 1: Reformatted Data
 
 - Description of what you did with the data
 
+##### Part 2: Use the resample function
+
+- Description of what you did with the data
+
+##### Part 3: Plot the data with matplotlib
+
+- Description of what you did with the data
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
+The notebooks output this spreadsheet which contains a graph: [`outputs/KFC_SameStoreSales_Growth.png`](outputs/KFC_SameStoreSales_Growth.png). 
 
 ## Running the analysis yourself
 
