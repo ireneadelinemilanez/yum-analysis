@@ -15,23 +15,21 @@ The spreadsheet come from the following:
 Each of the spreadsheets contain the following columns relevant to the analysis:
 
 - `Date` — Date quarterly same-store sales growth filed
-- `% Change` — % Change in same-store sales growth year-over-year
+- `Same-Store-Sales-Growth` — % Change in same-store sales growth year-over-year
 
 ## Methodology
 
 The notebook [`yum-time-series-analysis.ipynb`](notebooks/yum-time-series-analysis.ipynb) performs the following analyses:
 
-##### Part 1: Reformatted Data
+##### Part 1: Reformatted and Resample Data
 
-- Description of what you did with the data
+- format a column as a date time
+- set the index of our dataframe to this date time column
+- resample our dataframe 
 
-##### Part 2: Use the resample function
+##### Part 2: Plot the data with matplotlib
 
-- Description of what you did with the data
-
-##### Part 3: Plot the data with matplotlib
-
-- Description of what you did with the data
+- Used matplotlib to create a data visualization
 
 ## Outputs
 
